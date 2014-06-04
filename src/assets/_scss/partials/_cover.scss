@@ -57,6 +57,9 @@
       opacity: .85;
     }
   }
+  @include breakpoint(medium) {
+    @include transform(scale(0.5));
+  }
 }
 
 .cover-title {
