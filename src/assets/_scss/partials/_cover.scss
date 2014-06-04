@@ -25,20 +25,20 @@
 
 .cover-container {
   position: absolute;
-  bottom: 0;
-  padding: 50px 10% 10%;
+  top: 100px;
   width: 100%;
   color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  // text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
 
   @include breakpoint(medium) {
-    text-align: center;
-    padding: 0 15px;
+    top: 50px;
   }
 }
 
 .cover-logo {
   img {
+    border: none;
     // border: 3px solid #fff;
     // border-radius: 50%;
     // border-radius: 50%;
