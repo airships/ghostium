@@ -58,7 +58,9 @@
     }
   }
   @include breakpoint(medium) {
-    @include transform(scale(0.5));
+    img {
+     @include transform(scale(0.5));
+    }
   }
 }
 
