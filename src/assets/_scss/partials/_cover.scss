@@ -21,7 +21,7 @@
   left: 0;
   // box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.3);
   // background-color: $drawer-background-color;
-  background-color: #DDD;
+  background-color: #cce4ff;
 }
 
 .cover-container {
@@ -55,11 +55,6 @@
   &:focus {
     img {
       opacity: .85;
-    }
-  }
-  @include breakpoint(medium) {
-    img {
-     @include transform(scale(0.5));
     }
   }
 }
